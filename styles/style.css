@@ -136,3 +136,45 @@
     font-family: Inter;
     font-size: 32px;
 }
+
+/* .location part end */
+
+/* offer part start */
+.offer {
+    width: 1320px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: orangered; */
+}
+.offerConten{
+    width: 470px;
+}
+.offerConten h4{
+    font-family: Inter;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+.offerConten h3{
+    color: #070211;
+font-size: 48px;
+padding-bottom: 22px;
+}
+.offerConten p{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+}
+.offerImg{
+    /* width: 450px; */
+    width: 364.844px;
+height: 364.844px;
+/* flex-shrink: 0; */
+}
+.offerYear{
+    width: 400px;
+}
+.yearImg{
+    margin-top: 55px;
+}
