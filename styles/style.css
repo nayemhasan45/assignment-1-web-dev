@@ -5,6 +5,24 @@
     font-family: "Merriweather", serif;
 }
 
+.pColor {
+    color: #F00;
+    font-family: Inter;
+    font-size: 32px;
+}
+
+.pBtn {
+    text-decoration: none;
+    font-family: Inter;
+    /* outline: none; */
+    padding: 10px 32px;
+    color: white;
+    border: 0;
+    border-radius: 8px;
+    background: #F00;
+    margin-top: 48px;
+}
+
 /* banner style start */
 .banner {
     background-image: url('../resources/Banner\ Image.png');
@@ -64,11 +82,12 @@
     background-image: url(../resources/Vectorrr.png);
     width: 1320px;
     margin: 50px auto;
-    padding: 70px;
+    /* padding: 70px; */
     background-repeat: no-repeat;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-radius: 0 0 15px 15px;
 }
 
 .partyConten {
@@ -95,4 +114,25 @@
     font-size: 20px;
     font-family: Inter;
     padding-left: 30px;
+}
+
+/* location part start */
+.location {
+    background-color: #e7646425;
+    width: 1320px;
+    height: 482px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.locationContent {
+    text-align: center;
+}
+
+.locationContent h3 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
 }
