@@ -1,5 +1,5 @@
 /* shared style  */
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Merriweather", serif;
@@ -29,6 +29,7 @@
 .bannerContent h3 {
     font-size: 32px;
 }
+
 /* banner style end */
 
 /* All categories start */
@@ -56,4 +57,42 @@
     color: #070211;
     padding-bottom: 40px;
     font-size: 48px;
+}
+
+/* midNight party */
+.midnightParty {
+    background-image: url(../resources/Vectorrr.png);
+    width: 1320px;
+    margin: 50px auto;
+    padding: 70px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.partyConten {
+    width: 642px;
+}
+
+.partyConten h1 {
+    color: #FFF;
+    font-size: 64px;
+    letter-spacing: 7.04px;
+}
+
+.partyConten p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 45px;
+}
+
+.partyConten a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+    font-family: Inter;
+    padding-left: 30px;
 }
