@@ -1,22 +1,11 @@
 /* shared style  */
-.merriweather-regular {
+*{
+    margin: 0;
+    padding: 0;
     font-family: "Merriweather", serif;
-    font-weight: 400;
-    font-style: normal;
 }
 
-.merriweather-bold {
-    font-family: "Merriweather", serif;
-    font-weight: 700;
-    font-style: normal;
-}
-
-.merriweather-black {
-    font-family: "Merriweather", serif;
-    font-weight: 900;
-    font-style: normal;
-}
-
+/* banner style start */
 .banner {
     background-image: url('../resources/Banner\ Image.png');
     width: 1320px;
@@ -28,13 +17,43 @@
     justify-content: center;
 }
 
-.bannerContent{
+.bannerContent {
     color: #FFF;
     text-align: center;
 }
-.bannerContent h1{
+
+.bannerContent h1 {
     font-size: 72px;
 }
-.bannerContent h3{
+
+.bannerContent h3 {
     font-size: 32px;
+}
+/* banner style end */
+
+/* All categories start */
+.allCategories {
+    width: 1320px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.categoriesContent h1 {
+    color: #F00;
+    font-size: 88px;
+    margin: 0px;
+    padding-bottom: 40px;
+}
+
+.categoriesContent p {
+    color: #F00;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.categoriesContent h3 {
+    color: #070211;
+    padding-bottom: 40px;
+    font-size: 48px;
 }
