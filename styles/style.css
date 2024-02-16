@@ -327,3 +327,50 @@
     font-family: Inter;
     font-size: 20px;
 }
+
+/* footer part start  */
+.footerContent {
+    height: 370px;
+    background: #070211;
+    padding: 120px 140px;
+}
+
+hr {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.footerContent .footerAddress {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    padding-bottom: 70px;
+}
+
+.footerContent .footerImg {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 48px 0px;
+}
+
+.footerContent .footerImg img {
+    width: 64px;
+    height: 64px;
+}
+.footerContent .footerRights{
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    padding-top: 75px;
+}
+.footerRights a{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+outline: none;
+text-decoration: none;
+}
