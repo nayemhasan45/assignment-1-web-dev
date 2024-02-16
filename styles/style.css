@@ -258,12 +258,72 @@
     font-size: 20px;
     margin-bottom: 48px;
 }
-.protfolio .portfolioImg .firstImg{
+
+.protfolio .portfolioImg .firstImg {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
 }
-.protfolio .firstImg img{
+
+.protfolio .firstImg img {
     width: 400px;
     height: 450px;
+}
+
+/* newsletter part start */
+.newsletter {
+    width: 1320px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    /* background-color: aquamarine; */
+    justify-content: center;
+    text-align: center;
+    padding: 80px 0;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.newsletter .newsletterContent img {
+    width: 150px;
+    height: 150px;
+    padding-bottom: 40px;
+}
+
+.newsletterContent h3 {
+    color: #070211;
+
+    font-size: 48px;
+    padding-bottom: 10px;
+}
+
+.newsletterContent p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    margin-bottom: 48px;
+}
+
+.newsletterContent #emailField {
+    padding: 0 30px;
+    width: 648px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    border: 0;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+}
+
+.newsletterContent .inputField button {
+    width: 210px;
+    height: 72px;
+    border: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
 }
